@@ -1,0 +1,110 @@
+objc[4656]: Class MQCocoaRuntimeInfo is implemented in both /Applications/QQ.app/Contents/Frameworks/Hummer.framework/Versions/A/Hummer (0x10df8e560) and /Applications/QQ.app/Contents/Frameworks/OnlineFileTransfer.framework/Versions/A/Frameworks/Common.framework/Versions/A/Common (0x10e957210). One of the two will be used. Which one is undefined.
+objc[4656]: Class MQCocoaRuntimeInfo is implemented in both /Applications/QQ.app/Contents/Frameworks/Hummer.framework/Versions/A/Hummer (0x10df8e560) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8a0c88). One of the two will be used. Which one is undefined.
+objc[4656]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e820) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8ab980). One of the two will be used. Which one is undefined.
+objc[4656]: Class GCDAsyncReadPacket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e870) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8ab9d0). One of the two will be used. Which one is undefined.
+objc[4656]: Class GCDAsyncWritePacket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e8c0) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8aba20). One of the two will be used. Which one is undefined.
+objc[4656]: Class GCDAsyncSpecialPacket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e910) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8aba70). One of the two will be used. Which one is undefined.
+objc[4656]: Class GCDAsyncSocket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e960) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8abac0). One of the two will be used. Which one is undefined.
+objc[4656]: Class AVButton is implemented in both /System/Library/Frameworks/AVKit.framework/Versions/A/AVKit (0x7fffcd320db0) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8b5430). One of the two will be used. Which one is undefined.
+objc[4656]: Class AsyncReadPacket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e5a0) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8b6420). One of the two will be used. Which one is undefined.
+objc[4656]: Class AsyncWritePacket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e5f0) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8b6470). One of the two will be used. Which one is undefined.
+objc[4656]: Class AsyncSpecialPacket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e640) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8b64c0). One of the two will be used. Which one is undefined.
+objc[4656]: Class AsyncSocket is implemented in both /Applications/QQ.app/Contents/Frameworks/FTMiniNN.framework/Versions/A/FTMiniNN (0x10dc4e690) and /Applications/QQ.app/Contents/MacOS/QQ (0x10d8b6510). One of the two will be used. Which one is undefined.
+2017-12-06 14:26:53.182 QQ[4656:76180] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2017-12-06 14:26:53.350 QQ[4656:76180] WTLogin For Mac Build Version: 5.4.1.2140
+2017-12-06 14:26:53.350 QQ[4656:76180] WTLogin For Mac Build Time   : May  9 2017 19:27:46
+2017-12-06 14:26:53.389 QQ[4656:76180] <WORKFLOW>: init sdk[2.1.1] with appid[537052833] in the bundle [com.tencent.qq] on the device[x86_64, Mac OS X 10.12.6(16G29)]
+2017-12-06 14:26:53.389 QQ[4656:76180] <WORKFLOW>: sdk install signal handler success, exception handler success
+2017-12-06 14:26:53.392 QQ[4656:76221] <WORKFLOW>: sdk send an request to server[http://monitor.uu.qq.com/analytics/rqdsync] with 520 and data[427] for 537052833, com.tencent.qq[6.1.1(29177)]
+2017-12-06 14:27:00.199 QQ[4656:76180] ############################## _getSysMsgList
+2017-12-06 14:27:00.199 QQ[4656:76180] ############################## _getSysMsgList
+2017-12-06 14:27:00.203 QQ[4656:76180] ############################## _getSysMsgList
+2017-12-06 14:27:00.203 QQ[4656:76180] ############################## _getSysMsgList
+2017-12-06 14:27:00.208 QQ[4656:76180] NSWindow warning: adding an unknown subview: <FullSizeContentView: 0x7faa6afc0c90>. Break on NSLog to debug.
+2017-12-06 14:27:00.210 QQ[4656:76180] Call stack:
+48 (
+	0   AppKit                              0x00007fffb0845aed -[NSThemeFrame addSubview:] + 109, 
+	1   AppKit                              0x00007fffb0845838 -[NSView addSubview:positioned:relativeTo:] + 217, 
+	2   AppKit                              0x00007fffb105cac5 -[NSThemeFrame addSubview:positioned:relativeTo:] + 43, 
+	3   QQ                                  0x000000010bf71277 QQ + 881271, 
+	4   QQ                                  0x000000010bf710b4 QQ + 880820, 
+	5   QQ                                  0x000000010bf7101e QQ + 880670, 
+	6   AppKit                              0x00007fffb0a76cf5 -[NSWindow initWithContentRect:styleMask:backing:defer:screen:] + 68, 
+	7   QQ                                  0x000000010bf6ff5e QQ + 876382, 
+	8   QQ                                  0x000000010c176d0e QQ + 3001614, 
+	9   libdispatch.dylib                   0x00007fffc847c8fc _dispatch_client_callout + 8, 
+	10  libdispatch.dylib                   0x00007fffc847c8b9 dispatch_once_f + 38, 
+	11  QQ                                  0x000000010c176b98 QQ + 3001240, 
+	12  QQ                                  0x000000010c444690 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0xa0218TinyID2UserAccInfoEEEPvv + 1644189, 
+	13  QQ                                  0x000000010bf09636 QQ + 456246, 
+	14  QQ                                  0x000000010befffc2 QQ + 417730, 
+	15  QQ                                  0x000000010bf04e98 QQ + 437912, 
+	16  QQ                                  0x000000010c566587 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0x59213GetDateResultEEEPvv + 497623, 
+	17  libdispatch.dylib                   0x00007fffc847c8fc _dispatch_client_callout + 8, 
+	18  libdispatch.dylib                   0x00007fffc847d536 _dispatch_barrier_sync_f_invoke + 83, 
+	19  QQ                                  0x000000010c566524 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0x59213GetDateResultEEEPvv + 497524, 
+	20  QQ                                  0x000000010bf04d45 QQ + 437573, 
+	21  QQ                                  0x000000010beffd5e QQ + 417118, 
+	22  QQ                                  0x000000010c4a8bc2 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0xa0218TinyID2UserAccInfoEEEPvv + 2055119, 
+	23  CoreFoundation                      0x00007fffb2d4845c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12, 
+	24  CoreFoundation                      0x00007fffb2d4835b _CFXRegistrationPost + 427, 
+	25  CoreFoundation                      0x00007fffb2d480c2 ___CFXNotificationPost_block_invoke + 50, 
+	26  CoreFoundation                      0x00007fffb2d05523 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1827, 
+	27  CoreFoundation                      0x00007fffb2d0455c _CFXNotificationPost + 604, 
+	28  Foundation                          0x00007fffb4729677 -[NSNotificationCenter postNotificationName:object:userInfo:] + 66, 
+	29  QQ                                  0x000000010c4b4644 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0xa0218TinyID2UserAccInfoEEEPvv + 2102865, 
+	30  QQ                                  0x000000010c9a5095 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0x5a916OnlineConfMemberEEEPvv + 242446, 
+	31  QQ                                  0x000000010c9a59d0 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0x5a916OnlineConfMemberEEEPvv + 244809, 
+	32  QQ                                  0x000000010c9a501e _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0x5a916OnlineConfMemberEEEPvv + 242327, 
+	33  QQ                                  0x000000010c9a3c77 _ZN3_t_3_p_22__internal_new_creatorIN3_n_2im4oidb8cmd0x5a916OnlineConfMemberEEEPvv + 237296, 
+	34  libdispatch.dylib                   0x00007fffc8485524 _dispatch_call_block_and_release + 12, 
+	35  libdispatch.dylib                   0x00007fffc847c8fc _dispatch_client_callout + 8, 
+	36  libdispatch.dylib                   0x00007fffc8489aac _dispatch_main_queue_callback_4CF + 925, 
+	37  CoreFoundation                      0x00007fffb2d71bc9 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9, 
+	38  CoreFoundation                      0x00007fffb2d32c0d __CFRunLoopRun + 2205, 
+	39  CoreFoundation                      0x00007fffb2d32114 CFRunLoopRunSpecific + 420, 
+	40  HIToolbox                           0x00007fffb2292ebc RunCurrentEventLoopInMode + 240, 
+	41  HIToolbox                           0x00007fffb2292cf1 ReceiveNextEventCommon + 432, 
+	42  HIToolbox                           0x00007fffb2292b26 _BlockUntilNextEventMatchingListInModeWithFilter + 71, 
+	43  AppKit                              0x00007fffb082ba54 _DPSNextEvent + 1120, 
+	44  AppKit                              0x00007fffb0fa77ee -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 2796, 
+	45  AppKit                              0x00007fffb08203db -[NSApplication run] + 926, 
+	46  AppKit                              0x00007fffb07eae0e NSApplicationMain + 1237, 
+	47  libdyld.dylib                       0x00007fffc84b2235 start + 1, 
+)
+2017-12-06 14:27:00.217 QQ[4656:76180] Failed to connect (border) outlet from (MQAIOSelfInfoViewController2) to (NSImageView): missing setter or instance variable
+2017-12-06 14:27:00.287 QQ[4656:76180] Failed to connect (headImgView) outlet from (NSTableCellView) to (MQAvatarImageView): missing setter or instance variable
+2017-12-06 14:27:00.287 QQ[4656:76180] Failed to connect (infoTextField) outlet from (NSTableCellView) to (NSTextField): missing setter or instance variable
+2017-12-06 14:27:00.287 QQ[4656:76180] Failed to connect (titleTextField) outlet from (NSTableCellView) to (NSTextField): missing setter or instance variable
+2017-12-06 14:27:00.370 QQ[4656:76200] CTXBuddyInputStatusMgr已存在
+2017-12-06 14:27:00.370 QQ[4656:76200] CTXAntiFraudMgr已存在
+2017-12-06 14:27:00.371 QQ[4656:76207] 组件3EEA9FE2-D7E8-4C00-8341-05C0F5FAAC6A已经存在
+2017-12-06 14:27:00.371 QQ[4656:76207] 组件B775CF43-CA7B-4CB1-859E-1CDB518F7B81已经存在
+2017-12-06 14:27:00.375 QQ[4656:76207] 组件FEDD06DE-8CB2-452b-AD70-D3CF74F71E97已经存在
+2017-12-06 14:27:00.375 QQ[4656:76207] 组件98A19206-1F2C-4625-BAD7-89F5D425408A已经存在
+2017-12-06 14:27:00.377 QQ[4656:76207] AddFileSystem, orig-type=SS，switch-to=CD, path=/Users/jsen/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/1922279340/FaceStore.db
+2017-12-06 14:27:00.377 QQ[4656:76200] AddFileSystem, orig-type=SS，switch-to=CD, path=/Users/jsen/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/1922279340/CustomFace.db
+2017-12-06 14:27:00.377 QQ[4656:76200] AddFileSystem, orig-type=SS，switch-to=CD, path=/Users/jsen/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/1922279340/FaceStore.db
+2017-12-06 14:27:00.379 QQ[4656:76200] LoadFromFile1,表情管理	加载成功	文件：CustomFaceConfig:Face2.dat。
+2017-12-06 14:27:00.379 QQ[4656:76200] LoadFaceInfo1,表情管理	重新加载	Face2.dat
+2017-12-06 14:27:00.379 QQ[4656:76200] InitSysFaceInfo1,默认表情数量lSize=140368121167977
+2017-12-06 14:27:00.381 QQ[4656:76200] InitSysFaceInfo2,默认表情数量lSize=140368121167977
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | SharpWrapper | avqq_impl.cpp:640:SharpAV                | SharpAV::SharpAV
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | VoipWrapper  | DAVEngineImpl.cpp:3973:SetIsSupport      | SetIsSupport. devicetype:0, chip:7, cpufreq:0, ostype:0
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | SharpWrapper | avqq_impl.cpp:734:Init                   | Init. selfuin = ******9340, feablehwCodec = 0, OS_VERSION = , ROM_VERSION = unknown, MANUFACTURER = unknown, PRODUCT = unknown, CPUNAME = unknown. nettype is 0
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | SharpWrapper | avqq_impl.cpp:745:Init                   | m_terminalType:0
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | SharpWrapper | avqq_impl.cpp:1062:changeAPN             | changeAPN. peeruin = 0, network type = 0.
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | SharpWrapper | avqq_impl.cpp:105:SetApnType             | NetTrafficStats::SetApnType. s_apnType = 0
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | SharpWrapper | avqq_impl.cpp:922:Init                   | SharpAV, SelfQQ = ******9340
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | VoipWrapper  | DAVEngineImpl.cpp:588:Init               | Sharp Engine and old Engine Initialize end.
+2017-12-06 14:27:00.383 QQ[4656:76180] 2017/12/06 14:27:00.383 | I | VoipWrapper  | DAVEngineImpl.cpp:589:Init               | just for test by joy.
+2017-12-06 14:27:01.709 QQ[4656:76180] ShareExt|||Prepare Run Share task, Url is:(null)
+2017-12-06 14:27:02.024 QQ[4656:76224] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is NULL
+2017-12-06 14:27:02.024 QQ[4656:76224] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is NULL
+2017-12-06 14:27:02.522 QQ[4656:76221] <WORKFLOW>: sdk send an request to server[http://monitor.uu.qq.com/analytics/rqdsync] with 510 and data[177] for 537052833, com.tencent.qq[6.1.1(29177)]
+2017-12-06 14:27:03.642 QQ[4656:76222] SaveToFile2,表情管理	保存文件	写入完毕
+2017-12-06 14:27:03.644 QQ[4656:76222] SaveToFile3,表情管理	保存文件	保存完毕
+2017-12-06 14:27:03.644 QQ[4656:76222] DoCommit1,默认分组表情数量uSize=8146013455254552681
+2017-12-06 14:27:03.644 QQ[4656:76222] DoCommit2,分组数量uSize=8146013455254552579
+2017-12-06 14:27:03.644 QQ[4656:76222] DoCommit4,提交改变	提交配置	CustomFaceConfig:dbc
+InitPlatform   tpcLogWriter logDir = /Users/jsen/Library/Containers/com.tencent.qq/Data/Library.

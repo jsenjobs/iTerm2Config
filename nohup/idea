@@ -1,0 +1,6 @@
+2017-12-06 14:23:22.662 idea[4537:74011] allVms required 1.8*,1.8+
+2017-12-06 14:23:22.665 idea[4537:74027] Value of IDEA_VM_OPTIONS is (null)
+2017-12-06 14:23:22.665 idea[4537:74027] fullFileName is: /Applications/IntelliJ IDEA.app/Contents/bin/idea.vmoptions
+2017-12-06 14:23:22.665 idea[4537:74027] fullFileName exists: /Applications/IntelliJ IDEA.app/Contents/bin/idea.vmoptions
+2017-12-06 14:23:22.665 idea[4537:74027] Processing VMOptions file at /Applications/IntelliJ IDEA.app/Contents/bin/idea.vmoptions
+2017-12-06 14:23:22.665 idea[4537:74027] Done

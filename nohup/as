@@ -1,0 +1,11 @@
+2017-12-06 16:07:59.550 studio[7541:126048] allVms required 1.8*,1.8+
+2017-12-06 16:07:59.553 studio[7541:126060] fullFileName is: /Applications/Android Studio.app/Contents/bin/studio.vmoptions
+2017-12-06 16:07:59.553 studio[7541:126060] fullFileName exists: /Applications/Android Studio.app/Contents/bin/studio.vmoptions
+2017-12-06 16:07:59.553 studio[7541:126060] Value of STUDIO_VM_OPTIONS is (null)
+2017-12-06 16:07:59.553 studio[7541:126060] Processing VMOptions file at /Applications/Android Studio.app/Contents/bin/studio.vmoptions
+2017-12-06 16:07:59.553 studio[7541:126060] Done
+2017-12-06 16:07:59.553 studio[7541:126060] Processing VMOptions file at /Users/jsen/Library/Preferences/AndroidStudio3.0/studio.vmoptions
+2017-12-06 16:07:59.555 studio[7541:126060] No content found
+2017-12-06 16:07:59.555 studio[7541:126060] Processing VMOptions file at 
+2017-12-06 16:07:59.555 studio[7541:126060] No content found
+/Applications/Android Studio.app/Contents/bin/idea.properties: 'java.endorsed.dirs' already defined
